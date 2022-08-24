@@ -47,6 +47,7 @@ background: linear-gradient(90deg, rgba(70,117,142,1) 1%, rgba(152,244,250,1) 49
 }
 .list:hover a{
     color: white;
+    cursor: pointer;
 }
 .icons{
     background-color: var(--mavi4);
