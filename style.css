@@ -61,4 +61,5 @@ background: linear-gradient(90deg, rgba(70,117,142,1) 1%, rgba(152,244,250,1) 49
     background-color: var(--gri-2);
     color: var(--beyaz);
     font-family: var(--ff-dyna);
+    cursor: pointer;
 }
