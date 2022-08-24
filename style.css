@@ -41,8 +41,13 @@ background: linear-gradient(90deg, rgba(70,117,142,1) 1%, rgba(152,244,250,1) 49
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     text-shadow: var(--acik-golge) 1px ;
 }
-
-
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.list:hover a{
+    color: white;
+}
 .icons{
     background-color: var(--mavi4);
     flex-grow: 2;
@@ -56,7 +61,7 @@ background: linear-gradient(90deg, rgba(70,117,142,1) 1%, rgba(152,244,250,1) 49
     font-size: 1.3rem;
     color: var(--siyah);
 }
-.list:hover{
+.list:hover {
     transition: all 1s;
     background-color: var(--gri-2);
     color: var(--beyaz);
